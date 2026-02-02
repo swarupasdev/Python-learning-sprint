@@ -1,4 +1,4 @@
-#greeting card 
+#report card 
 name='Alice'
 print(name)
 print(type(name))

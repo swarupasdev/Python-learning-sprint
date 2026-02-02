@@ -1,6 +1,6 @@
 age=25  #you create a varibale - declaration then you assign a value to it -"initialization"
 print(age) #will print the value assigned to variable "age"
-
+#python is dynamically typed
 #"=" is an assignment operator
 my_integer_var=10
 print('Integer:', my_integer_var)

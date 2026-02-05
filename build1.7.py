@@ -5,3 +5,5 @@ str1='Hello Swarup'
 #print(str1[-1])
 print(str1[2:])
 print(str1[-1:])
+
+#string[start:stop:step]

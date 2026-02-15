@@ -44,4 +44,3 @@ if age >=21 or age >= 18 and (show_time != 'Evening' or is_member):
     print("Final price of ticket:", final_price)    
 else:
     print("Ticket booking failed due to restrictions")
-

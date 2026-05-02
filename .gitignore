@@ -1,5 +1,4 @@
-.vs/
 .venv/
-External Libraries/
-Scratches and Consoles/
-.idea/workspace.xml
+.idea/
+__pycache__/
+*.pyc

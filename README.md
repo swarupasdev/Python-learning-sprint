@@ -1,1 +1,65 @@
-# Python
+# MY PYTHON NOTES
+
+## WE WILL WRITE THE NOTES HERE TO UNDERSTAND AND REVISE EVERYTHING FURTHER . WE WILL DESCRIBE EVERYTHING WITH THE REFERENCE OF THE FILE ABOVE THE DESCRPTION . AFTER THIS YOU CAN PROCEED WHAT YOU WAN TO LEARN AND HOW IT IS DESCRIBED IN THE RELATED Python FILE
+
+### FILE: [IDENTIFIERS:](revision_python_gate/01_hello.py)
+
+- identifier is a name having a few letters , numbers and special characters_
+- python is case-sensitive
+- constant is identifier you can not see the concept of constant in python so you can not define a constant basically ,you have to ,manually think that this variable is a constant
+
+
+### FILE: [VARIABLES:](revision_python_gate/03_variable.py)
+
+- In python, you only bind a name to an object during assignment python consider value as objects
+- memory allocation in python is based upon the value that variable carries not upon the variable
+- if a value is in memory, it is allocated. that is how they save memory in python
+- a variable is considered as tag that is tied to some value
+
+### FILE: [DATATYPES:](revision_python_gate/04_datatype.py)
+
+ - You do not declare the datatype in python , you simply write the value and assign a variable to it , python will understand the datatype automatically
+ - datatype represents the type of data stored into a variable or memory
+ - built in datatype and user-defined datatype
+ - built-in datatypes : none type , numeric type, sequences, sets , mappings
+ - user-defined datatypes : array , class , module
+ - none type : none datatype represents an object that does not contain any value 
+ - numeric type : int, float, complex, boolean
+ - <img src="./revision_python_gate/img.png" alt="sample_output">
+ - Why we get a output like this ?? because everything in python is an object and classes define what that object is and what they do 
+###### - numeric type:
+- ##### Int:
+1. Int datatype is for integer numbers 
+2. all whole numbers are integers
+3. in python, you can represent very large size integer /no limit of size of an int datatype
+
+- ##### Float:
+1. contains decimal point ex : 7.9, 0.789, 5.9e5
+2. e is scientific notation where e represents exponentiation which represents the power of 10 so 5.9e5 means 5.9*10<sup>5</sup>
+
+- ##### Complex: 
+1. written format : a+bj or a+bJ where a = real part of the number(int or float) and b = imaginary part of the number(int or float) and j or J = $\sqrt{-1}$
+e.g. 5+6j , 0.4+3j, 3+0.3j
+
+- ##### Bool type:
+1. boolean value True as 1 or False as 0
+
+###### - sequence type:
+- ##### string: 
+1. represents a group of characters
+2. enclosed with double or single quotes
+
+- ##### list: 
+1. represents a group of element
+2. can store different types of elements
+3. can be modified
+4. due to its dynamic property size is not fixed 
+5. represented using ```[]```  e.g. ```[10, 20, -90, 'Z']```
+
+| [0] |  10   |
+| [1] |  20   |
+| [2] |  -90  |
+| [3] |   Z   |
+
+- tuple
+- range

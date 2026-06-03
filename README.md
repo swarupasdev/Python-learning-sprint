@@ -8,8 +8,7 @@
 - python is case-sensitive
 - constant is identifier you can not see the concept of constant in python so you can not define a constant basically ,you have to ,manually think that this variable is a constant
 
-
-### FILE: [VARIABLES:](revision_python_gate/03_variable.py)
+### FILE: [VARIABLES:](revision_python_gate/02_identifier.py)
 
 - In python, you only bind a name to an object during assignment python consider value as objects
 - memory allocation in python is based upon the value that variable carries not upon the variable
@@ -56,11 +55,13 @@ e.g. 5+6j , 0.4+3j, 3+0.3j
 4. due to its dynamic property size is not fixed 
 5. represented using ```[]```  e.g. ```[10, 20, -90, 'Z']```
 
+|array| value |
+|-----|-------|
 | [0] |  10   |
 | [1] |  20   |
 | [2] |  -90  |
 | [3] |   Z   |
 
 - ##### tuple:
-1
-- range
+1. 
+- range 

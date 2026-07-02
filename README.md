@@ -2,13 +2,13 @@
 
 ## WE WILL WRITE THE NOTES HERE TO UNDERSTAND AND REVISE EVERYTHING FURTHER . WE WILL DESCRIBE EVERYTHING WITH THE REFERENCE OF THE FILE ABOVE THE DESCRPTION . AFTER THIS YOU CAN PROCEED WHAT YOU WAN TO LEARN AND HOW IT IS DESCRIBED IN THE RELATED Python FILE
 
-### FILE: [IDENTIFIERS:](revision_python_gate/01_hello.py)
+### FILE: [IDENTIFIERS:](revision_python_gate/02_identifier.py)
 
 - identifier is a name having a few letters , numbers and special characters_
 - python is case-sensitive
 - constant is identifier you can not see the concept of constant in python so you can not define a constant basically ,you have to ,manually think that this variable is a constant
 
-### FILE: [VARIABLES:](revision_python_gate/02_identifier.py)
+### FILE: [VARIABLES:](revision_python_gate/03_variable.py)
 
 - In python, you only bind a name to an object during assignment python consider value as objects
 - memory allocation in python is based upon the value that variable carries not upon the variable
@@ -25,7 +25,7 @@
  - none type : none datatype represents an object that does not contain any value 
  - numeric type : int, float, complex, boolean
  - <img src="./revision_python_gate/img.png" alt="sample_output">
- - Why we get a output like this ?? because everything in python is an object and classes define what that object is and what they do 
+ - Why we get an output like this ?? because everything in python is an object and classes define what that object is and what they do 
 ###### - numeric type:
 - ##### Int:
 1. Int datatype is for integer numbers 
@@ -55,13 +55,20 @@ e.g. 5+6j , 0.4+3j, 3+0.3j
 4. due to its dynamic property size is not fixed 
 5. represented using ```[]```  e.g. ```[10, 20, -90, 'Z']```
 
-|array| value |
-|-----|-------|
-| [0] |  10   |
-| [1] |  20   |
-| [2] |  -90  |
-| [3] |   Z   |
+| array | value |
+|-------|-------|
+| [0]   | 10    |
+| [1]   | 20    |
+| [2]   | -90   |
+| [3]   | Z     |
 
 - ##### tuple:
-1. 
-- range 
+1. represents a group of elements with different datatypes
+2. similar to "List" but tuples are read-only
+3. can not be modified
+4. represented using ```()``` e.g. ```(10,30,-3.5,'swarup')```
+
+- ##### range:
+1. represents a sequence of numbers
+2. can not be modified and contains numbers only
+3. rg1 = range(5) rg2 = range(10,20,2)(initialization,final goal,difference gap)

@@ -23,4 +23,15 @@ a_list[1] = 80
 print(type(a_list[1]))
 print(a_list)
 
+a_tuple=(10,20,40.5,"swarup")
+print(type(a_tuple))
+print(a_tuple)
+print(a_tuple[0])
+
+a_range=range(5)
+print(type(a_range))
+print(a_range)
+print(a_range[1])
+
+
 #demonstrate the outputs and try to understand

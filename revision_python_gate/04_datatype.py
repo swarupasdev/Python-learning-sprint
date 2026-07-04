@@ -33,5 +33,12 @@ print(type(a_range))
 print(a_range)
 print(a_range[1])
 
+a_set={10,20,30,40,"swarup"}
+print(type(a_set))
+print(a_set)
 
+a_dict={101: 'Rahul', 102: "Amit",103: "Swarup"}
+print(type(a_dict))
+print(a_dict)
+print(a_dict[101])
 #demonstrate the outputs and try to understand

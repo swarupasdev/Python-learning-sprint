@@ -72,3 +72,16 @@ e.g. 5+6j , 0.4+3j, 3+0.3j
 1. represents a sequence of numbers
 2. can not be modified and contains numbers only
 3. rg1 = range(5) rg2 = range(10,20,2)(initialization,final goal,difference gap)
+
+
+######  - Set type
+1. unordered collection of elements means order is not maintained 
+2. does not accept duplicate elements
+3. due to its unordered property its elements can not be accessed using index 
+4. represented using ```{}``` e.g. ```{10,20,30,"swarup"}```
+
+
+###### - Mapping type/Dictionary
+1. represents a group of elements in the form of key value pairs 
+2. e.g. data{101: 'Rahul', 102: "Amit",103: "Swarup"}
+3. ordered pair according to insertion

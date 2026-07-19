@@ -84,7 +84,24 @@ e.g. 5+6j , 0.4+3j, 3+0.3j
 ###### - Mapping type/Dictionary
 1. represents a group of elements in the form of key value pairs 
 2. e.g. data{101: 'Rahul', 102: "Amit",103: "Swarup"}
-   3. ordered pair according to insertion
+3. ordered pair according to insertion
 
 
-###### - 
+### FILE: [OPERATORS:](revision_python_gate/05_operator.py)
+- An operator is a symbol that performs an operation
+1. arithmetic operator
+    - ```+ -> addition```
+    - ```- -> substraction```
+    - ```* -> multiplication```
+    - ```/ -> division```
+    - ```% -> modulus```
+    - ```** -> exponent```
+    - ```// -> integer division / floor division```
+2. relational operator/ comparison operator
+    - used to compare the value of operands to produce a logical value in TRUE or FALSE
+    - 
+3. logical operator
+4. assignment operator
+5. bitwise operator
+6. membership operator
+7. identity operator

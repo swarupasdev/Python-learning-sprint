@@ -98,10 +98,35 @@ e.g. 5+6j , 0.4+3j, 3+0.3j
     - ```** -> exponent```
     - ```// -> integer division / floor division```
 2. relational operator/ comparison operator
-    - used to compare the value of operands to produce a logical value in TRUE or FALSE
-    - 
+    - used to compare the value of operands to produce a logical value in True or False
+    - ```less than -> <```
+    - ```greater than -> >```
+    - ```less than or equal to -> <=```
+    - ```greater than or equal to -> >=```
+    - ```equal to -> ==```
+    - ```not equal to -> !=```
 3. logical operator
-4. assignment operator
+    - used to form a complex expression called logical expression
+    - the value obtained by evaluating a logical expression is always logical i.e. either True or False
+    - 
+      | operator | meaning     | example     | result |
+      |----------|-------------|-------------|--------|
+      | and      | logical and | 5<2 and 5>3 | false  |
+      | or       | logical or  | 5<2 and 5>3 | true   |
+      | not      | logical not | not(5<2)    | true   |
+    - if true and expression then result is expression
+    - if false and expression then result is false
+    - if true and expression1 and expression2 then result is expression2
+    - if true or expression then result is true
+    - if false or expression then result is expression
+    - if true or expression1 or expression2 then result is true 
+    - if false or expression1 or expression2 then result is expression1 
+    - anything after not if it is true then false if false then true 
+    - any expression after not results false 
+4. assignment operator:
+    - assignment operators are used to perform arithmetic operation while assigning a value to a variable 
+    - ![assignment_operator](revision_python_gate/assignment_operator.png)
+    - 
 5. bitwise operator
 6. membership operator
 7. identity operator

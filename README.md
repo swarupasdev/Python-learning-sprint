@@ -126,7 +126,13 @@ e.g. 5+6j , 0.4+3j, 3+0.3j
 4. assignment operator:
     - assignment operators are used to perform arithmetic operation while assigning a value to a variable 
     - ![assignment_operator](revision_python_gate/assignment_operator.png)
-    - 
-5. bitwise operator
-6. membership operator
+5. bitwise operator:
+    - used to perform operations at binary digit level.
+    - not commonly used
+6. membership operator:
+    - used to test for membership in a sequence such as string, lists, tuples, dictionaries.
+    -  two types : in and not in
+    - in : operator used to find an element in the specified sequence. it will return true if the element is found in the specified sequence else it will return false .
+    - not in: operator used to find an element in the specified sequence. it will return true if the element is not found in the specified sequence else it will return false .
+           
 7. identity operator

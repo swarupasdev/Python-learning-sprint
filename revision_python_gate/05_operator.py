@@ -70,4 +70,8 @@ print(e5)
 print(f6)
 print(g7)
 
-
+#Membership operator
+st1="welcome to grim-sage"
+print("to"in st1)
+print("sex"in st1)
+print("sex" not in st1)

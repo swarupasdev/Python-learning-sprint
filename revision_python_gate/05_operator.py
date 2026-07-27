@@ -55,23 +55,37 @@ c4 = 40
 c4*=10
 d4 = 50
 d4/=10
-e5=60
-e5%=10
-f6=70
-f6**=10
-g7=80
-g7//=10
+e4=60
+e4%=10
+f4=70
+f4**=10
+g4=80
+g4//=10
 
 print(a4)
 print(b4)
 print(c4)
 print(d4)
-print(e5)
-print(f6)
-print(g7)
+print(e4)
+print(f4)
+print(g4)
 
 #Membership operator
 st1="welcome to grim-sage"
 print("to"in st1)
 print("sex"in st1)
 print("sex" not in st1)
+
+#identity operator
+a5 = 10
+b5 = 10
+c5 = '10'
+
+print(id(a5))
+print(id(b5))
+print(id(c5))
+
+print(a5 is b5)
+print(a5 is c5)
+print(a5 is not b5)
+print(a5 is not c5)

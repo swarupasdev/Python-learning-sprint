@@ -105,6 +105,7 @@ e.g. 5+6j , 0.4+3j, 3+0.3j
     - ```greater than or equal to -> >=```
     - ```equal to -> ==```
     - ```not equal to -> !=```
+   
 3. logical operator
     - used to form a complex expression called logical expression
     - the value obtained by evaluating a logical expression is always logical i.e. either True or False
@@ -123,16 +124,34 @@ e.g. 5+6j , 0.4+3j, 3+0.3j
     - if false or expression1 or expression2 then result is expression1 
     - anything after not if it is true then false if false then true 
     - any expression after not results false 
+   
 4. assignment operator:
     - assignment operators are used to perform arithmetic operation while assigning a value to a variable 
     - ![assignment_operator](revision_python_gate/assignment_operator.png)
+   
 5. bitwise operator:
     - used to perform operations at binary digit level.
     - not commonly used
+   
 6. membership operator:
     - used to test for membership in a sequence such as string, lists, tuples, dictionaries.
-    -  two types : in and not in
-    - in : operator used to find an element in the specified sequence. it will return true if the element is found in the specified sequence else it will return false .
-    - not in: operator used to find an element in the specified sequence. it will return true if the element is not found in the specified sequence else it will return false .
+    - two types : in and not in
+         1. in : operator used to find an element in the specified sequence. it will return true if the element is found in the specified sequence else it will return false .
+         2. not in: operator used to find an element in the specified sequence. it will return true if the element is not found in the specified sequence else it will return false .
            
-7. identity operator
+7. identity operator:
+    - identity operator compares the memory locations of two objects. Hence, it is possible to know whether2 objects are same or not .
+    - two types : is and 
+         1. is : 
+            - used to compare if 2 objects are same or not 
+            - returns True if memory location of 2 objects are same else False
+         2. is not : 
+            - works in reverse manner of ```is```.
+            - returns True if memory location of 2 objects are npt same else false
+            
+#### Operator precedence and associativity :
+- Computer scans the expression which contains the operators, from left to right and performs one operation at a time.
+- The expression will be scanned many times to produce the result. The order in which various operations are performed is known as operator precedence. 
+- Some of the operators of the same level of precedence are evaluates from left to right or right to left which is referred to associativity.
+- <img src="./revision_python_gate/operators_precedence.png" alt="sample_output">
+

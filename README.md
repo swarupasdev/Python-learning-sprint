@@ -155,3 +155,23 @@ e.g. 5+6j , 0.4+3j, 3+0.3j
 - Some of the operators of the same level of precedence are evaluates from left to right or right to left which is referred to associativity.
 - <img src="./revision_python_gate/operators_precedence.png" alt="sample_output">
 
+### FILE: [IMPLICIT EXPLICIT TYPE CONVERSION:](revision_python_gate/06_typeconversion.py)
+### FILE: [INPUT-OUTPUT STATEMENT:](revision_python_gate/07_outputstatement.py)
+- escape sequence:
+  1. escape sequences are control characters used to move the cursor and print characters such as ',".\ and so on.
+  2. | escape sequence | meaning                        |
+     |-----------------|--------------------------------|
+     | \a              | bell                           |
+     | \b              | backspace                      |
+     | \f              | formfeed                       |
+     | \n              | new line                       |
+     | \r              | carriage return                |
+     | \t              | horizontal tab                 |
+     | \v              | vertical tab                   |
+     | \new line       | backslash and new line ignored |
+     | \\              | backslash                      |
+     | \'              | single quote                   |
+     | \''             | double quote                   |
+
+
+### FILE: [IF-ELSE STATEMENT](revision_python_gate/08_ifelse.py)

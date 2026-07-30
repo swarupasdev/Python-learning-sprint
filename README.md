@@ -174,4 +174,9 @@ e.g. 5+6j , 0.4+3j, 3+0.3j
      | \''             | double quote                   |
 
 
-### FILE: [IF-ELSE STATEMENT](revision_python_gate/08_ifelse.py)
+### FILE: [IF-ELSE STATEMENT:](revision_python_gate/08_ifelse.py)
+### FILE: [LOOPS:](./revision_python_gate/09_loops.py)
+- used when a section of code may either be executed a fixed number of times or while some condition is true 
+    1. while
+    2. for
+- 

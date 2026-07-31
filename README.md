@@ -177,6 +177,12 @@ e.g. 5+6j , 0.4+3j, 3+0.3j
 ### FILE: [IF-ELSE STATEMENT:](revision_python_gate/08_ifelse.py)
 ### FILE: [LOOPS:](./revision_python_gate/09_loops.py)
 - used when a section of code may either be executed a fixed number of times or while some condition is true 
-    1. while
+    1. while:
+        - A Python while loop is a control flow statement used to repeatedly execute a block of code as long as a specified boolean condition remains True.
+        - It is primarily used when the exact number of iterations is unknown before the loop starts.
+        - while loop with else : while(condition):
+                                        Statement 1
+                                 else:
+                                        Statement 2
+                                 Rest of the code              
     2. for
-- 

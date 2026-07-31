@@ -6,3 +6,15 @@ while a <= 10:
     a+=1
 print("finished")
 
+b = 6
+while b<=5:
+    print(b)
+    b+=1
+else:
+    print("while condition false else run")
+print("rest of the code")    
+
+while(True):
+    print("love you")
+else:
+    print("die")     

@@ -192,3 +192,10 @@ e.g. 5+6j , 0.4+3j, 3+0.3j
                                         statements
                               rest of code                                                   
     2. for:
+### FILE: [RANGE() FUCNTION:](./revision_python_gate/10_rangefunction.py)
+- RANGE() FUNCTION is used to generate a sequence of integers starting from 0 by default, and increaments by 1 by default, till j-1.
+- Syntax: range(start,stop,stepsize)
+    1. start - starting position . if we do not mention start by default it's 0
+    2. stop - ending position . range of integers stops one element prior to stop. if stop is j then it will stop at exact j-1
+    3. stepsize - increment by step size . if we do not mention start by default it is 1 
+    

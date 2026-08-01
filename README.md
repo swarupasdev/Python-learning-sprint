@@ -184,5 +184,11 @@ e.g. 5+6j , 0.4+3j, 3+0.3j
                                         Statement 1
                                  else:
                                         Statement 2
-                                 Rest of the code              
-    2. for
+                                 Rest of the code 
+        - nested while loop : while(condition) :
+                                        statements
+                                        while(condition):
+                                            statements
+                                        statements
+                              rest of code                                                   
+    2. for:

@@ -188,12 +188,17 @@ e.g. 5+6j , 0.4+3j, 3+0.3j
         - nested while loop : while(condition) :
                                         statements
                                         while(condition):
-                                            statements
-                                        statements
+                                            statements                                        
                               rest of code                                                   
     2. for:
-### FILE: [RANGE() FUCNTION:](./revision_python_gate/10_rangefunction.py)
-- RANGE() FUNCTION is used to generate a sequence of integers starting from 0 by default, and increaments by 1 by default, till j-1.
+        - useful to iterate over the elements of sequence such as string, list , tuple etc
+        - syntax: for variable in sequence:
+                              statements
+                      rest of the code
+        - for loop is useful to iterate over the elements of sequence such as string, list, tuple etc. The else suite will always be executed irrespective of the statement in the loop are executed or not.
+        - for loop inside another for loop is known as nested for loop.
+### FILE: [RANGE() FUNCTION:](./revision_python_gate/10_rangefunction.py)
+- RANGE() FUNCTION is used to generate a sequence of integers starting from 0 by default, and increments by 1 by default, till j-1.
 - Syntax: range(start,stop,stepsize)
     1. start - starting position . if we do not mention start by default it's 0
     2. stop - ending position . range of integers stops one element prior to stop. if stop is j then it will stop at exact j-1

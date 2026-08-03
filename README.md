@@ -211,7 +211,7 @@ e.g. 5+6j , 0.4+3j, 3+0.3j
     3. stepsize - increment by step size . if we do not mention start by default it is 1 
     
 
- ### FILE: [BREAK AND CONTINUE](./revision_python_gate/12_breakcontinue.py)   
+ ### FILE: [BREAK AND CONTINUE:](./revision_python_gate/12_breakcontinue.py)   
 - Break statement: used to jump out of loop to process the next statement in the program.
 - syntax: while condition:
                 if(condition):
@@ -222,3 +222,12 @@ e.g. 5+6j , 0.4+3j, 3+0.3j
                     if(condition):
                             continue
           rest of code  
+
+
+### FILE: [PASS STATEMENT:](./revision_python_gate/13_passstatement.py)
+- pass statement is used inside a loop or if statement to represent no operation
+- useful when a statement is syntactically correct ,but we don't need to do any operation
+  - syntax : if(conditions):
+                        pass
+            else:
+                        statements

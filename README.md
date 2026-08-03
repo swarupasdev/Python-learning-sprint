@@ -156,6 +156,8 @@ e.g. 5+6j , 0.4+3j, 3+0.3j
 - <img src="./revision_python_gate/operators_precedence.png" alt="sample_output">
 
 ### FILE: [IMPLICIT EXPLICIT TYPE CONVERSION:](revision_python_gate/06_typeconversion.py)
+
+
 ### FILE: [INPUT-OUTPUT STATEMENT:](revision_python_gate/07_outputstatement.py)
 - escape sequence:
   1. escape sequences are control characters used to move the cursor and print characters such as ',".\ and so on.
@@ -175,6 +177,8 @@ e.g. 5+6j , 0.4+3j, 3+0.3j
 
 
 ### FILE: [IF-ELSE STATEMENT:](revision_python_gate/08_ifelse.py)
+
+
 ### FILE: [LOOPS:](./revision_python_gate/09_loops.py)
 - used when a section of code may either be executed a fixed number of times or while some condition is true 
     1. while:
@@ -197,6 +201,8 @@ e.g. 5+6j , 0.4+3j, 3+0.3j
                       rest of the code
         - for loop is useful to iterate over the elements of sequence such as string, list, tuple etc. The else suite will always be executed irrespective of the statement in the loop are executed or not.
         - for loop inside another for loop is known as nested for loop.
+
+
 ### FILE: [RANGE() FUNCTION:](./revision_python_gate/10_rangefunction.py)
 - RANGE() FUNCTION is used to generate a sequence of integers starting from 0 by default, and increments by 1 by default, till j-1.
 - Syntax: range(start,stop,stepsize)
@@ -204,3 +210,15 @@ e.g. 5+6j , 0.4+3j, 3+0.3j
     2. stop - ending position . range of integers stops one element prior to stop. if stop is j then it will stop at exact j-1
     3. stepsize - increment by step size . if we do not mention start by default it is 1 
     
+
+ ### FILE: [BREAK AND CONTINUE](./revision_python_gate/12_breakcontinue.py)   
+- Break statement: used to jump out of loop to process the next statement in the program.
+- syntax: while condition:
+                if(condition):
+                          break
+          Rest of code  
+- Continue statement: used in a loop to go back to the beginning of the loop
+- syntax: while condition:
+                    if(condition):
+                            continue
+          rest of code  

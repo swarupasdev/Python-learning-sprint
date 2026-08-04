@@ -211,7 +211,7 @@ e.g. 5+6j , 0.4+3j, 3+0.3j
     3. stepsize - increment by step size . if we do not mention start by default it is 1 
     
 
- ### FILE: [BREAK AND CONTINUE:](./revision_python_gate/12_breakcontinue.py)   
+### FILE: [BREAK AND CONTINUE:](./revision_python_gate/12_breakcontinue.py)   
 - Break statement: used to jump out of loop to process the next statement in the program.
 - syntax: while condition:
                 if(condition):
@@ -231,3 +231,18 @@ e.g. 5+6j , 0.4+3j, 3+0.3j
                         pass
             else:
                         statements
+
+
+### FILE: [ARRAYS:](./revision_python_gate/14_arrays.py)      
+- array is an object that provide a mechanism for storing several data items with only one identifier, thereby simplifying the task of data management, Array is beneficial if you need to store group of elements of same datatype.
+- python, arrays can increase or decrease their size dynamically.
+- array can store only one type of data
+- size of array is not fixed 
+- array can increase or decrease their size dynamically
+- array and list are not same 
+- array uses less memory than list.
+- type of array :
+    1. one-dimensional array: single row multiples columns
+            ex: student's roll number
+    2. multidimensional array: multiple rows multiple columns
+            ex: student's subjects marks

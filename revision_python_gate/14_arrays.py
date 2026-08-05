@@ -22,3 +22,7 @@ my_list[1] = 25     # Changes 20 to 25
 
 # Add an element to the end
 my_list.append(60)
+
+
+import array
+stu_roll = array.array("i",[ 101,102,103,104.105])

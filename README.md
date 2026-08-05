@@ -246,3 +246,5 @@ e.g. 5+6j , 0.4+3j, 3+0.3j
             ex: student's roll number
     2. multidimensional array: multiple rows multiple columns
             ex: student's subjects marks
+- ```import array``` : this will import the entire array module  
+- ```from array import*``` : this will import all class , objects , variable

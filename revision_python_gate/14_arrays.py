@@ -26,3 +26,9 @@ my_list.append(60)
 
 import array
 stu_roll = array.array("i",[ 101,102,103,104.105])
+print(stu_roll)
+
+from array import*
+new_stu_roll = array('i',[101,102,103,104,105])
+
+print(new_stu_roll) 

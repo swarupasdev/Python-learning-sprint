@@ -31,4 +31,4 @@ print(stu_roll)
 from array import*
 new_stu_roll = array('i',[101,102,103,104,105])
 
-print(new_stu_roll) 
+print(new_stu_roll)

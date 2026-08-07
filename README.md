@@ -281,3 +281,6 @@ e.g. 5+6j , 0.4+3j, 3+0.3j
     | d         | double             | float       | 8             |
   
   - index: an index represents the position number of an array's element
+  - accessing array using for loop: 
+    1. without index:
+    2. with index:

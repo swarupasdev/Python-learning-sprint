@@ -10,25 +10,33 @@
 # print(stu4_roll)
 # print(stu5_roll)
 
-# Create a 1D list
-my_list = [10, 20, 30, 40, 50]
-
-# Access elements (using 0-based indexing)
-print(my_list[0])   # Output: 10
-print(my_list[-1])  # Output: 50 (last element)
-
-# Modify an element
-my_list[1] = 25     # Changes 20 to 25
-
-# Add an element to the end
-my_list.append(60)
-
+# # Create a 1D list
+# my_list = [10, 20, 30, 40, 50]
+#
+# # Access elements (using 0-based indexing)
+# print(my_list[0])   # Output: 10
+# print(my_list[-1])  # Output: 50 (last element)
+#
+# # Modify an element
+# my_list[1] = 25     # Changes 20 to 25
+#
+# # Add an element to the end
+# my_list.append(60)
+#
 
 import array
-stu_roll = array.array("i",[ 101,102,103,104.105])
+stu_roll = array.array("i",[ 101,102,103,104,105])
+print(stu_roll[0])
+
 print(stu_roll)
 
+#accessing array with for loop
 from array import*
-new_stu_roll = array('i',[101,102,103,104,105])
+emp_num=array("i",[102, 102,103,104,105])
 
-print(new_stu_roll)
+for element in emp_num:
+    print(element)
+
+n = len(emp_num)
+for i in range(n):
+    print(emp_num[i])

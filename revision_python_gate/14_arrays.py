@@ -31,12 +31,24 @@ print(stu_roll[0])
 print(stu_roll)
 
 #accessing array with for loop
+#without index
 from array import*
 emp_num=array("i",[102, 102,103,104,105])
 
 for element in emp_num:
     print(element)
 
+#with index
 n = len(emp_num)
 for i in range(n):
     print(emp_num[i])
+
+from array import*
+emp_id = array("i",[201,202,203,204,205])
+
+m = len(emp_id)
+i = 0
+while i<m:
+    print(emp_id[i])
+    i+=1
+

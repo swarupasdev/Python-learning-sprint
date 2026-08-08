@@ -282,5 +282,10 @@ e.g. 5+6j , 0.4+3j, 3+0.3j
   
   - index: an index represents the position number of an array's element
   - accessing array using for loop: 
-    1. without index:
-    2. with index:
+    1. without index
+    2. with index
+
+### FILE: [APPEND:](revision_python_gate/15_append.py)
+- this method is used to add an element at the end of the existing array
+  Syntax: array_name.append(new_element)
+- array_name: (object of array class)

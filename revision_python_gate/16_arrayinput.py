@@ -20,6 +20,6 @@ while j<m:
     emp_id.append(int(input("enter your element: ")))
     j+=1
 
-while j<len(emp_id):
-    print(emp_id[j])
-    j+=1
+while k<len(emp_id):
+    print(emp_id[k])
+    k+=1

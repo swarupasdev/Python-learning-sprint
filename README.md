@@ -289,3 +289,7 @@ e.g. 5+6j , 0.4+3j, 3+0.3j
 - this method is used to add an element at the end of the existing array
   Syntax: array_name.append(new_element)
 - array_name: (object of array class)
+
+### FILE: [USER INPUT IN ARRAY](revision_python_gate/16_arrayinput.py)
+- used to insert an element in a particular position of the existing array
+- syntax: array_name.insert(position_number,new_element)

@@ -293,3 +293,9 @@ e.g. 5+6j , 0.4+3j, 3+0.3j
 ### FILE: [USER INPUT IN ARRAY](revision_python_gate/16_arrayinput.py)
 - used to insert an element in a particular position of the existing array
 - syntax: array_name.insert(position_number,new_element)
+
+### FILE: [POP METHOD] (revision_python_gate/18_pop.py):
+- used to remove last element from the existing array
+  Syntax : array_name.pop()
+- used to remove an element specified by position number, from the existing array and returns removed element
+  Syntax : array_name.pop(position_number)

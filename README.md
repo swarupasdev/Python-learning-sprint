@@ -302,3 +302,7 @@ e.g. 5+6j , 0.4+3j, 3+0.3j
 
 ### FILE: [REMOVE METHOD](revision_python_gate/19_remove.py)
 - used to remove first occurrence of given element from the existing array . if it does not found the element shows value error
+
+### FILE: [INDEX METHOD](revision_python_gate/20_index.py)
+- return the position number of 1st occurrence of given element in the array. 
+- if it won't find any element , shows value Error

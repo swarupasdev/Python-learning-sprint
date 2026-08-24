@@ -306,3 +306,7 @@ e.g. 5+6j , 0.4+3j, 3+0.3j
 ### FILE: [INDEX METHOD](revision_python_gate/20_index.py)
 - return the position number of 1st occurrence of given element in the array. 
 - if it won't find any element , shows value Error
+
+### FILE: [REVERSE METHOD](revision_python_gate/21_reverse.py)
+- used to reverse the order of elements in the array
+- syntax : array_name.reserved(element)

@@ -310,3 +310,7 @@ e.g. 5+6j , 0.4+3j, 3+0.3j
 ### FILE: [REVERSE METHOD](revision_python_gate/21_reverse.py)
 - used to reverse the order of elements in the array
 - syntax : array_name.reserved(element)
+
+### FILE: [EXTEND METHOD](revision_python_gate/22_extend.py)
+- used to append another array or iterable object at the end of the array.
+- syntax : array_name.extend(arr)

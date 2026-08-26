@@ -314,3 +314,8 @@ e.g. 5+6j , 0.4+3j, 3+0.3j
 ### FILE: [EXTEND METHOD](revision_python_gate/22_extend.py)
 - used to append another array or iterable object at the end of the array.
 - syntax : array_name.extend(arr)
+
+### FILE: [SLICING ON ARRAY](revision_python_gate/23_slicing.py)
+- slicing on arrays can be used to retrieve a piece of the array that contains a group of elements. 
+- useful to retrieve a range of elements
+- syntax: ```new_array_name = array_name[start:stop:stepsize]```

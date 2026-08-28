@@ -320,6 +320,13 @@ e.g. 5+6j , 0.4+3j, 3+0.3j
 - useful to retrieve a range of elements
 - syntax: ```new_array_name = array_name[start:stop:stepsize]```
 
+#### A brief description about pip: pip is the package manager for python , using pip we can install python packages. when you download python it automatically gets installed into your computer.
+#### to check pip version ```pip --version```
+#### to update pip ```python -m pip install --upgrade pip```  or  ```py -m pip install --upgrade pip```
+#### to get help ```pip help```
+#### to install packages ```pip install (package name in camelcase)```
+#### to use packages ```import (package name in camelcase)```
+#### to uninstall ```pip uninstall (package name in camel case)```
 ### FILE: [1D NUMPY ARRAY](revision_python_gate/24_1Dnumpyarray.py)
 ### FILE: [NUMPY 1D ARRAY USING LINSPACE FUNCTION](revision_python_gate/25_linespace1D.py)
 ### FILE: [NUMPY 1D ARRAY USING LOGSPACE FUNCTION](revision_python_gate/26_logspace1D.py)

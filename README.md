@@ -327,7 +327,6 @@ e.g. 5+6j , 0.4+3j, 3+0.3j
 #### to install packages ```pip install (package name in camelcase)```
 #### to use packages ```import (package name in camelcase)```
 #### to uninstall ```pip uninstall (package name in camel case)```
-### FILE: [1D NUMPY ARRAY](revision_python_gate/24_1Dnumpyarray.py)
 - numpy is a package contains classes , functions , variables , large library of mathematical functions to work with scientific calculation 
 - numpy can be used to create n dimensional array where n is any integer
 - numpy array is also called "ndarray", also known as "alias name array". 
@@ -339,6 +338,13 @@ e.g. 5+6j , 0.4+3j, 3+0.3j
   ex: [101, 102, 103, 104, 105]
 - ##### ways of creating array in numpy : 
 1. array() function
+2. linespace() function
+3. logspace() function
+4. arange() function
+5. zeros() function
+6. ones() function
+### FILE: [1D NUMPY ARRAY](revision_python_gate/24_1Dnumpyarray.py)
+
 ### FILE: [NUMPY 1D ARRAY USING  LINSPACE FUNCTION](revision_python_gate/25_linespace1D.py)
 
 ### FILE: [NUMPY 1D ARRAY USING LOGSPACE FUNCTION](revision_python_gate/26_logspace1D.py)

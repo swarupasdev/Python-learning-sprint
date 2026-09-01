@@ -332,5 +332,13 @@ e.g. 5+6j , 0.4+3j, 3+0.3j
 - numpy can be used to create n dimensional array where n is any integer
 - numpy array is also called "ndarray", also known as "alias name array". 
 - to install ```pip install numpy```
+- import ways : 
+    1. import numpy - this will import the entire numpy module.
+    2. from numpy import* - this will import all class , objects, variable etc from numpy package . Here * means all.
+- single row multiple columns.
+  ex: [101, 102, 103, 104, 105]
+- ##### ways of creating array in numpy : 
+1. array() function
 ### FILE: [NUMPY 1D ARRAY USING  LINSPACE FUNCTION](revision_python_gate/25_linespace1D.py)
+
 ### FILE: [NUMPY 1D ARRAY USING LOGSPACE FUNCTION](revision_python_gate/26_logspace1D.py)

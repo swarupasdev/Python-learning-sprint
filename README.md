@@ -344,6 +344,15 @@ e.g. 5+6j , 0.4+3j, 3+0.3j
 5. zeros() function
 6. ones() function
 ### FILE: [1D NUMPY ARRAY](revision_python_gate/24_1Dnumpyarray.py)
+- syntax : ```
+              import numpy
+              array_name = numpy.array([elements])
+           ```
+           0R
+           ```
+              from numpy import*
+              array_name = array([elements])
+           ```
 
 ### FILE: [NUMPY 1D ARRAY USING  LINSPACE FUNCTION](revision_python_gate/25_linespace1D.py)
 

@@ -7,3 +7,9 @@ print(stu_roll[1])
 print(stu_roll[2])
 print(stu_roll[3])
 print(stu_roll[4])
+
+from numpy import*
+stu_id = array([201,202,203,204,205])
+
+for element in stu_id:
+    print(element)

@@ -13,3 +13,11 @@ stu_id = array([201,202,203,204,205])
 
 for element in stu_id:
     print(element)
+
+from numpy import*
+emp_id = array([301,302,303,304,305])
+n = len(emp_id)
+i = 0
+while i < n :
+    print(emp_id[i])
+    i+=1

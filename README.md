@@ -355,5 +355,7 @@ e.g. 5+6j , 0.4+3j, 3+0.3j
            ```
 
 ### FILE: [NUMPY 1D ARRAY USING  LINSPACE FUNCTION](revision_python_gate/25_linespace1D.py)
+- this function is used to create an array with evenly spaced numbers between a start point and stop point 
+- syntax : ```numpy.linspace(start, stop , num = 50 , endpoint = True , retstep = False , dtype = None , axis=0)```
 
 ### FILE: [NUMPY 1D ARRAY USING LOGSPACE FUNCTION](revision_python_gate/26_logspace1D.py)

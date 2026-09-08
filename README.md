@@ -344,18 +344,28 @@ e.g. 5+6j , 0.4+3j, 3+0.3j
 5. zeros() function
 6. ones() function
 ### FILE: [1D NUMPY ARRAY](revision_python_gate/24_1Dnumpyarray.py)
-- syntax : ```
+- syntax : 
+    ```
               import numpy
               array_name = numpy.array([elements])
-           ```
-           0R
-           ```
+    ```
+                   0R
+    ```
               from numpy import*
               array_name = array([elements])
-           ```
+    ```
 
-### FILE: [NUMPY 1D ARRAY USING  LINSPACE FUNCTION](revision_python_gate/25_linespace1D.py)
+### FILE: [NUMPY 1D ARRAY USING  LINSPACE FUNCTION](revision_python_gate/25_linspace1D.py)
 - this function is used to create an array with evenly spaced numbers between a start point and stop point 
 - syntax : ```numpy.linspace(start, stop , num = 50 , endpoint = True , retstep = False , dtype = None , axis=0)```
+- start - it represents starting element 
+- stop - represents ending element
+- num - it represents number of parts the element should be divided. Default is 50 . It must be non-negative  
+- endpoint - if true , stop is the last element . if false , stop is not included 
+- syntax :
+    ```
+  from numpy import*
+  array_name = linspace(start, stop, num = 50 , endpoint = True  )
+    ```
 
 ### FILE: [NUMPY 1D ARRAY USING LOGSPACE FUNCTION](revision_python_gate/26_logspace1D.py)

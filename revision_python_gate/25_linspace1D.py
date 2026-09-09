@@ -10,4 +10,4 @@ marks = linspace(1,8,5,endpoint = True)
 #with index
 n = len(marks)
 for i in range(n):
-    print(marks[i])
+    print("index",i,marks[i])

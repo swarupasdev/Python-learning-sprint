@@ -369,3 +369,15 @@ e.g. 5+6j , 0.4+3j, 3+0.3j
     ```
 
 ### FILE: [NUMPY 1D ARRAY USING LOGSPACE FUNCTION](revision_python_gate/26_logspace1D.py)
+- used to create an array with evenly spaced numbers logarithmically 
+- The sequence starts at base ** start (base to the power of start) and ends with base ** stop 
+- syntax: 
+        ```
+        numpy.logspace(start, stop , num = 50, endpoint = True, base = 10.0, dtype = None , axis =0)
+        ```
+- start - it represents starting element which will become base to the power of start(base <sup>start</sup>)
+- stop - represents ending element which will become base to the power of stop (base <sup>stop</sup>)
+- num - represents number of parts the elements should be divided . Default is 50 . It must be non-negative
+- endpoint - if true , stop is the last element, If false, stop is not included
+- base - the base of the log space
+- dtype - the type of output array

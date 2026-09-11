@@ -4,3 +4,4 @@ n = len(marks)
 for i in range(n):
     print("index",i,marks[i])
     i+=1
+    

@@ -381,3 +381,17 @@ e.g. 5+6j , 0.4+3j, 3+0.3j
 - endpoint - if true , stop is the last element, If false, stop is not included
 - base - the base of the log space
 - dtype - the type of output array
+
+
+### FILE: [NUMPY 1D ARRAY USING ARANGE FUNCTION](revision_python_gate/27_arange1D.py)
+- used to create an array with a group of elements from start to one element prior to stop in steps of stepsize
+- syntax: numpy.arange(start, stop, stepsize, dtype=None)
+- start - start of interval. Interval includes this value . Default start value is 0
+- stop - end of interval . Interval does not include this value, except in some cases where step is not an integer and floating point round-off affects the length of out.
+- stepsize - spacing between values. Default step size is 1 
+- dtype - the type of output array 
+- syntax: 
+        ```
+          from numpy import*
+          array_name = arange(start, stop, stepsize, dtype = None)
+        ```

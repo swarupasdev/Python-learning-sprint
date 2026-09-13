@@ -395,3 +395,9 @@ e.g. 5+6j , 0.4+3j, 3+0.3j
           from numpy import*
           array_name = arange(start, stop, stepsize, dtype = None)
         ```
+### FILE: [NUMPY 1D ARRAY USING ZEROS FUNCTION](revision_python_gate/28_zeros1D.py)
+- used to create an array with all zeros 
+- syntax : 
+    ```
+        numpy.zeros(shape , dtype = float, order = 'C'
+    ```

@@ -333,7 +333,7 @@ e.g. 5+6j , 0.4+3j, 3+0.3j
 - to install ```pip install numpy```
 - import ways : 
     1. import numpy - this will import the entire numpy module.
-    2. from numpy import* - this will import all class , objects, variable etc from numpy package . Here * means all.
+    2. from numpy import* - this will import all class , objects, variable etc. from numpy package . Here * means all.
 - single row multiple columns.
   ex: [101, 102, 103, 104, 105]
 - ##### ways of creating array in numpy : 
@@ -400,4 +400,7 @@ e.g. 5+6j , 0.4+3j, 3+0.3j
 - syntax : 
     ```
         numpy.zeros(shape , dtype = float, order = 'C'
-    ```
+    ``` 
+- shape - shape of new array. it can be an int which will represent number of elements or can be tuple of int. ex: 5,(5,),(3,1)
+- dtype - the desired datatype for the array
+- order - whether to store multidimensional data in row major (c-style) or column major (Fortran style) order in memory . Can be C or F 

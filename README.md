@@ -399,8 +399,15 @@ e.g. 5+6j , 0.4+3j, 3+0.3j
 - used to create an array with all zeros 
 - syntax : 
     ```
-        numpy.zeros(shape , dtype = float, order = 'C'
+        numpy.zeros(shape , dtype = float, order = 'C')
     ``` 
+- shape - shape of new array. it can be an int which will represent number of elements or can be tuple of int. ex: 5,(5,),(3,1)
+- dtype - the desired datatype for the array
+- order - whether to store multidimensional data in row major (c-style) or column major (Fortran style) order in memory . Can be C or F 
+
+### FILE: [NUMPY 1D ARRAY USING ONES FUNCTION](revision_python_gate/29_ones1D.py)
+- USED TO CREATE AN ARRAY WITH ALL 1S
+- syntax: ```numpy.ones(shape , dtype = float, order = 'C')```
 - shape - shape of new array. it can be an int which will represent number of elements or can be tuple of int. ex: 5,(5,),(3,1)
 - dtype - the desired datatype for the array
 - order - whether to store multidimensional data in row major (c-style) or column major (Fortran style) order in memory . Can be C or F 

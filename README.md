@@ -415,3 +415,7 @@ e.g. 5+6j , 0.4+3j, 3+0.3j
 ### FILE: [MATH OPERATIONS ON ARRAYS USING NUMPY](revision_python_gate/30_mathoperationsonarray.py)
 - we can perform mathematical operations like addition, substraction, multiplication, division, etc on the elements on the elements of an array.
 - Math functions from the math module can also be possible to apply to the elements of the array
+
+### FILE: [COMPARING NUMPY ARRAY](revision_python_gate/31_comparingnumpy.py)
+- relational operators are used to compare the value of operands(expressions) to produce a logical value .
+- a logical value is either true or false 

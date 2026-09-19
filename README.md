@@ -411,3 +411,7 @@ e.g. 5+6j , 0.4+3j, 3+0.3j
 - shape - shape of new array. it can be an int which will represent number of elements or can be tuple of int. ex: 5,(5,),(3,1)
 - dtype - the desired datatype for the array
 - order - whether to store multidimensional data in row major (c-style) or column major (Fortran style) order in memory . Can be C or F 
+
+### FILE: [MATH OPERATIONS ON ARRAYS USING NUMPY](revision_python_gate/30_mathoperationsonarray.py)
+- we can perform mathematical operations like addition, substraction, multiplication, division, etc on the elements on the elements of an array.
+- Math functions from the math module can also be possible to apply to the elements of the array

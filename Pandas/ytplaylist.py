@@ -1,7 +1,7 @@
 import yt_dlp
 import pandas as pd
 
-playlist_url = "https://www.youtube.com/watch?v=OtYEY2htIjM&list=PLhR2IpV1b2FwWwviBHRrR118YAaSlyhTU"
+playlist_url = "https://www.youtube.com/watch?v=y0OCSykdcL8&list=PLC36xJgs4dxGcz7nZaxGxxmbJrcgDXhFk"
 
 ydl_opts = {
     "quiet": True
@@ -36,7 +36,7 @@ with yt_dlp.YoutubeDL(ydl_opts) as ydl:
         })
 
 df = pd.DataFrame(videos_data)
-df.to_csv("python_dsa.csv", index=False)
+df.to_csv("dbms.csv", index=False)
 
 hours = total_seconds // 3600
 minutes = (total_seconds % 3600) // 60

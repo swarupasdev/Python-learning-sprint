@@ -419,3 +419,21 @@ e.g. 5+6j , 0.4+3j, 3+0.3j
 ### FILE: [COMPARING NUMPY ARRAY](revision_python_gate/31_comparingnumpy.py)
 - relational operators are used to compare the value of operands(expressions) to produce a logical value .
 - a logical value is either true or false 
+
+### FILE: [ANY AND ALL FUNCTION](revision_python_gate/32_anyandallfunction.py)
+- any() function: It returns true, if any one element of the iterable is true. If iterable is empty then returns false.
+  ex: 
+  ```
+  a = array([100, 200, 300, 400, 500])
+  b = array([100, 20, 30, 400, 50])
+  c = a==b
+  any(c)
+  ```
+- all() function: This function returns true, if all element of the iterable are true or iterable is empty. 
+  ex:
+  ```
+  a = array([100, 200, 300, 400, 500])
+  b = array([100, 200, 300, 400, 500])
+  c = a==b
+  all(c)
+  ``` 

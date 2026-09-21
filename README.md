@@ -437,3 +437,6 @@ e.g. 5+6j , 0.4+3j, 3+0.3j
   c = a==b
   all(c)
   ``` 
+  
+### FILE: [WHERE FUNCTION](revision_python_gate/33_wherefunction.py)
+- is used to create a new array which contains , returned elements chosen from expression1 or expression2 depending on conditions, if condition in True then expression1 will execute else expression2

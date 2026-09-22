@@ -440,3 +440,15 @@ e.g. 5+6j , 0.4+3j, 3+0.3j
   
 ### FILE: [WHERE FUNCTION](revision_python_gate/33_wherefunction.py)
 - is used to create a new array which contains , returned elements chosen from expression1 or expression2 depending on conditions, if condition in True then expression1 will execute else expression2
+
+### FILE: [NONZERO FUNCTION](revision_python_gate/34_nonzerofunction.py)
+- used to determine the positions of elements which are nonzero.
+- returns an array that contains the indexes of the element of the array which are not equal to zero.
+- syntax: ```numpy.nonzero(a)```
+- ex: 
+    ```
+        a = array([100, 200, 300, 400, 500])
+        c = nonzero(a)
+    ```
+-   
+

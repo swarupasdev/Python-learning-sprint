@@ -450,5 +450,8 @@ e.g. 5+6j , 0.4+3j, 3+0.3j
         a = array([100, 200, 300, 400, 500])
         c = nonzero(a)
     ```
--   
+### FILE: [ALIASING ARRAY](revision_python_gate/35_aliasingarray.py)
+- aliasing means giving another name to the existing object. It doesn't mean copying 
+  ex: a = array([10, 20, 30, 40, 50])
+  b = a 
 

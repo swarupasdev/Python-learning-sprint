@@ -455,3 +455,7 @@ e.g. 5+6j , 0.4+3j, 3+0.3j
   ex: a = array([10, 20, 30, 40, 50])
   b = a 
 
+### FILE: [VIEW METHOD](revision_python_gate/36_viewmethod.py)
+- used to construct a new view of array with same data of existing array 
+- existing array and new array will share different memory location.
+- if new array will modify then the existing will get modified too

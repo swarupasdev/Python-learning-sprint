@@ -459,3 +459,10 @@ e.g. 5+6j , 0.4+3j, 3+0.3j
 - used to construct a new view of array with same data of existing array 
 - existing array and new array will share different memory location.
 - if new array will modify then the existing will get modified too
+
+### FILE: [MULTI-DIMENSIONAL ARRAY](revision_python_gate/38_twodimensionalnumpy.py)
+- the 2D arrays, 3D arrays, etc. are called Multi-Dimensional Arrays
+- if an array contains more than 1 row and 1 column that is known as Two Dimensional Array.
+- It is also known as array of arrays
+- ex: ```a=array([10, 20,30, 40],[50, 60, 70, 80])```
+- ex: ```a=array([[2,5,8],[6,4,3]],[[3,7,9],[5,4,9]])```

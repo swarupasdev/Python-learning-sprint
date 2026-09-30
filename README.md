@@ -466,3 +466,22 @@ e.g. 5+6j , 0.4+3j, 3+0.3j
 - It is also known as array of arrays
 - ex: ```a=array([10, 20,30, 40],[50, 60, 70, 80])```
 - ex: ```a=array([[2,5,8],[6,4,3]],[[3,7,9],[5,4,9]])```
+- way of creating Multi-D array:
+  1. array() function
+  2. zeros() function
+  3. ones() function
+  4. reshape() function
+- array() function of numpy is used to create a Multi dimensional array  
+- Syntax: 
+    ```
+       numpy.array(object, dtype = None, copy=True, order='K', subok=False, ndmin=0)
+    ```
+- for more documentation visit : [numpy.array](https://www.numpy.org/devdocs/reference/generated/numpy.array.html)
+- ex:  
+   ```
+    from numpy import*
+    array1 = array([[10, 20, 30, 40],[50,60,70,80]], dtype = int)
+    print(array1)
+   ```
+- in the above example it creates a block for all element like 
+  

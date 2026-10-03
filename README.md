@@ -483,18 +483,19 @@ e.g. 5+6j , 0.4+3j, 3+0.3j
     array1 = array([[10, 20, 30, 40],[50,60,70,80]], dtype = int)
     print(array1)
    ```
-  - in the above example it creates a block for all element like
+   - in the above example it creates a block for all element like
   
   |   | 0  | 1  | 2  | 3  | 
   |---|----|----|----|----|
   | 0 | 10 | 20 | 30 | 40 |
   | 1 | 50 | 60 | 70 | 80 |
 
-#it creates a block for all element like 
+   - it creates a block for all element like 
 
-| 10      | 20       | 30       | 40       | 50      | 60      | 70       | 08       |
-|---------|----------|----------|----------|---------|---------|----------|----------|
-| [0][0]  | [0][1]   | [0][2]   | [0][3]   | [1][0]  | [1][1]  | [1][2]   | [1][3]   |
+ | 10      | 20       | 30       | 40       | 50      | 60      | 70       | 08       |
+ |---------|----------|----------|----------|---------|---------|----------|----------|
+ | [0][0]  | [0][1]   | [0][2]   | [0][3]   | [1][0]  | [1][1]  | [1][2]   | [1][3]   |
    
-  
 
+### FILE: [ACCESSING 2D ARRAY USING FOR LOOP](revision_python_gate/39_twodimensionalarrayloop.py)
+- 

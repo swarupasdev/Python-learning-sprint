@@ -8,6 +8,7 @@ for r in array1:
         print(s)
     print()
 
+#with index
 n = len(array1)
 for i in range(n):
     for j in range(len(array1[i])):

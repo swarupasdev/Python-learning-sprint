@@ -498,4 +498,12 @@ e.g. 5+6j , 0.4+3j, 3+0.3j
    
 
 ### FILE: [ACCESSING 2D ARRAY USING FOR LOOP](revision_python_gate/39_twodimensionalarrayloop.py)
-- 
+
+### FILE: [ACCESSING 2D ARRAY ZEROS() FUNCTION](revision_python_gate/40_2Dnumpyarrayzerofunction.py)
+- zero() function is used to create 2D array with all zeros
+- Syntax:- ```numpy.zeros(shape, dtype=float, order='C')```
+- shape: shape of new array. It can be an int which will represent number of elements or can be tuple of int ex:- (3, 2)
+                                                                                                                   |  |
+                                                                                                                 col row
+- dtype: the desired data-type for the array
+- order: whether to store multi-dimensional data in row -major (C-style) or column-major(fortran style) order in memory

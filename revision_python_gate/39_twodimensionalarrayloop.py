@@ -25,3 +25,6 @@ while k<m:
         print(array1[k][l])
         l+=1
         print()
+
+#with index
+
